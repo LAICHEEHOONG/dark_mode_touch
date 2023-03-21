@@ -1,0 +1,39 @@
+#drager {
+    background-color: rgba(232, 232, 232, 0.6);
+    z-index: 10000; 
+    opacity: 0.7;
+
+}
+
+#drager>div {
+
+   background-color: rgba(128, 128, 128, 0.2);
+  
+}
+
+#drager:hover {
+    box-shadow: 1px 1px 10px rgba(96, 96, 96, 0.2); 
+    opacity: 1;
+}
+
+#drager:hover>div {
+    background-color: white;
+    opacity: 1;
+}
+#screenShader {
+    opacity: 0;
+}
+#ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    font-weight: bolder;
+    user-select: none;
+    font-size: 1.5rem;
+    color: rgba(232, 232, 232, 0.6);
+   
+}
+#ball:hover {
+    color: rgba(57, 57, 57, 0.6);
+}
